@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Contact Salvatorebrothers53 added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Validation is passed]]>
+    </line>
+    <line>
+      <![CDATA[Logged in Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged out Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Campaign Salvatoregroups_961 added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Campaign Salvatoregroups_110 added successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-28T19:50:21 IST" name="Suite" finished-at="2025-03-28T19:52:23 IST" duration-ms="121716">
+    <groups>
+    </groups>
+    <test started-at="2025-03-28T19:50:21 IST" name="Test" finished-at="2025-03-28T19:52:23 IST" duration-ms="121716">
+      <class name="selframework.LoginandLogoutTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:selframework.LoginandLogoutTest@8519cb4]" started-at="2025-03-28T19:50:48 IST" name="beforeClass" finished-at="2025-03-28T19:50:58 IST" duration-ms="9303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selframework.LoginandLogoutTest@8519cb4]" started-at="2025-03-28T19:50:58 IST" name="beforeMethod" finished-at="2025-03-28T19:51:02 IST" duration-ms="3812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginLogoutTest()[pri:0, instance:selframework.LoginandLogoutTest@8519cb4]" started-at="2025-03-28T19:51:02 IST" name="loginLogoutTest" finished-at="2025-03-28T19:51:02 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validation is passed]]>
+            </line>
+            <line>
+              <![CDATA[Logged in Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Logged out Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginLogoutTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selframework.LoginandLogoutTest@8519cb4]" started-at="2025-03-28T19:51:02 IST" name="afterMethod" finished-at="2025-03-28T19:51:02 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:selframework.LoginandLogoutTest@8519cb4]" started-at="2025-03-28T19:51:02 IST" name="afterClass" finished-at="2025-03-28T19:51:04 IST" duration-ms="2353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- selframework.LoginandLogoutTest -->
+      <class name="selframework.Create_Product">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:selframework.Create_Product@35dab4eb]" started-at="2025-03-28T19:51:04 IST" name="beforeClass" finished-at="2025-03-28T19:51:14 IST" duration-ms="9354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selframework.Create_Product@35dab4eb]" started-at="2025-03-28T19:51:14 IST" name="beforeMethod" finished-at="2025-03-28T19:51:17 IST" duration-ms="3623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createProduct()[pri:0, instance:selframework.Create_Product@35dab4eb]" started-at="2025-03-28T19:51:17 IST" name="createProduct" finished-at="2025-03-28T19:51:38 IST" duration-ms="21334" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: VID_001
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: VID_001
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at generic_utilities.WebDriverUtility.selectByVisibleText(WebDriverUtility.java:71)
+at objectrepositary.CreateProduct.createProduct(CreateProduct.java:70)
+at selframework.Create_Product.createProduct(Create_Product.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selframework.Create_Product@35dab4eb]" started-at="2025-03-28T19:51:39 IST" name="afterMethod" finished-at="2025-03-28T19:51:39 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:selframework.Create_Product@35dab4eb]" started-at="2025-03-28T19:51:39 IST" name="afterClass" finished-at="2025-03-28T19:51:41 IST" duration-ms="2230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- selframework.Create_Product -->
+      <class name="selframework.Create_Campaign">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:selframework.Create_Campaign@2d901eb0]" started-at="2025-03-28T19:51:41 IST" name="beforeClass" finished-at="2025-03-28T19:51:50 IST" duration-ms="9297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selframework.Create_Campaign@2d901eb0]" started-at="2025-03-28T19:51:50 IST" name="beforeMethod" finished-at="2025-03-28T19:51:54 IST" duration-ms="3844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createCampaignTest()[pri:0, instance:selframework.Create_Campaign@2d901eb0]" started-at="2025-03-28T19:51:54 IST" name="createCampaignTest" finished-at="2025-03-28T19:52:07 IST" duration-ms="12341" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Campaign Salvatoregroups_961 added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaignTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selframework.Create_Campaign@2d901eb0]" started-at="2025-03-28T19:52:07 IST" name="afterMethod" finished-at="2025-03-28T19:52:07 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selframework.Create_Campaign@2d901eb0]" started-at="2025-03-28T19:52:07 IST" name="beforeMethod" finished-at="2025-03-28T19:52:08 IST" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createCampaignTestWithMandatoryFields()[pri:0, instance:selframework.Create_Campaign@2d901eb0]" started-at="2025-03-28T19:52:08 IST" name="createCampaignTestWithMandatoryFields" finished-at="2025-03-28T19:52:20 IST" duration-ms="12166" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Campaign Salvatoregroups_110 added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaignTestWithMandatoryFields -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selframework.Create_Campaign@2d901eb0]" started-at="2025-03-28T19:52:20 IST" name="afterMethod" finished-at="2025-03-28T19:52:20 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:selframework.Create_Campaign@2d901eb0]" started-at="2025-03-28T19:52:20 IST" name="afterClass" finished-at="2025-03-28T19:52:23 IST" duration-ms="2257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- selframework.Create_Campaign -->
+      <class name="selframework.Create_Contact">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:selframework.Create_Contact@4a83a74a]" started-at="2025-03-28T19:50:21 IST" name="beforeSuite" finished-at="2025-03-28T19:50:21 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:selframework.Create_Contact@4a83a74a]" started-at="2025-03-28T19:50:21 IST" name="beforeTest" finished-at="2025-03-28T19:50:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:selframework.Create_Contact@4a83a74a]" started-at="2025-03-28T19:50:21 IST" name="beforeClass" finished-at="2025-03-28T19:50:32 IST" duration-ms="11108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selframework.Create_Contact@4a83a74a]" started-at="2025-03-28T19:50:32 IST" name="beforeMethod" finished-at="2025-03-28T19:50:36 IST" duration-ms="3703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createContactTest()[pri:0, instance:selframework.Create_Contact@4a83a74a]" started-at="2025-03-28T19:50:36 IST" name="createContactTest" finished-at="2025-03-28T19:50:46 IST" duration-ms="10142" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Contact Salvatorebrothers53 added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selframework.Create_Contact@4a83a74a]" started-at="2025-03-28T19:50:46 IST" name="afterMethod" finished-at="2025-03-28T19:50:46 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:selframework.Create_Contact@4a83a74a]" started-at="2025-03-28T19:50:46 IST" name="afterClass" finished-at="2025-03-28T19:50:48 IST" duration-ms="2039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:selframework.Create_Contact@4a83a74a]" started-at="2025-03-28T19:52:23 IST" name="afterTest" finished-at="2025-03-28T19:52:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:selframework.Create_Contact@4a83a74a]" started-at="2025-03-28T19:52:23 IST" name="afterSuite" finished-at="2025-03-28T19:52:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- selframework.Create_Contact -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
