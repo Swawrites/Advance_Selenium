@@ -27,7 +27,7 @@ public class Create_Campaign extends Baseclass{
 	// We can also give like @Test(groups = {"Smoke test"}, priority = 1, invocation count = 2)
 	//@Test(enabled = true)
 	//@Test(dependsOnMethods = "createCampaignTestWithMandatoryFields()")
-	public void createCampaignTest() throws InterruptedException, IOException {
+	public void createCampaignTestwithDate() throws InterruptedException, IOException {
 		//public void createCampaignTest(String browserr) throws InterruptedException, IOException {
 		// get the data from the properties utility file
 //		Properties_File_Utility prop = new Properties_File_Utility();
@@ -83,7 +83,7 @@ public class Create_Campaign extends Baseclass{
 		boolean status = ConfMsg.contains(Campaign_name+number);
 		Assert.assertEquals(status, true, "Campaign not added");
 		Reporter.log("Campaign " + Campaign_name+number + " added successfully", true);
-		System.out.println("************************* from createCampaignTest");
+		System.out.println("************************* from createCampaignTestWithDate");
 		Thread.sleep(5000);
 		// Logout
 //		dp.logout();
